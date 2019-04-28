@@ -1,3 +1,3 @@
-export default PLUS = "PLUS";
-export default MINUS = "MINUS";
-export default COLOR = "COLOR";
+export const PLUS = "PLUS";
+export const MINUS = "MINUS";
+export const COLOR = "COLOR";
