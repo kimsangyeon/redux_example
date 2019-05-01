@@ -1,20 +1,20 @@
-import {PLUS, MINUS, COLOR} from './ActionTypes';
+import * as types from './ActionTypes';
 
 export function plus() {
     return {
-        type: PLUS
+        type: types.PLUS
     };
 }
 
 export function minus() {
     return {
-        type: MINUS
+        type: types.MINUS
     };
 }
 
 export function color(color) {
     return {
-        type: COLOR,
+        type: types.COLOR,
         color: color
     };
 }
